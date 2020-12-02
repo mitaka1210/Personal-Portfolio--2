@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html {
+  box-sizing: border-box;
+  font: var(--font-size-body, 14px) / 1.5 'Poppins', Georgia, serif;
+
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: var(--font-size-body-large, 16px);
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: var(--font-size-body-big, 18px);
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: var(--font-size-body-huge, 20px);
+  }
+}
+
+body,
+table,
+form,
+select,
+option,
+input,
+textarea {
+  font: inherit;
+  background: var(--color-body-bgrd, white);
+  color: var(--color-body-text, #000);
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+.site-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5em;
+  font-weight: normal;
+  font-family: 'Poppins', serif;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link-default, orange);
+}
+
+p,
+ul,
+ol {
+  padding-bottom: 1.5em;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+//? DROP DOWN MENU (ONLY)*/
+ol > li > ol > li {
+  list-style-type: lower-roman;
+}
+
+blockquote {
+  padding: 1rem;
+}
+
+blockquote .author {
+  font-style: italic;
+  text-align: right;
+  opacity: 0.5;
+}
+
+blockquote .author:before {
+  display: inline-block;
+  content: '\2014';
+  padding-right: 0.5em;
+}
