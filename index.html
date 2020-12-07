@@ -27,6 +27,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	
 		
 	</head>
@@ -128,39 +129,62 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
                     <a href="#">Read more</a>
                 </div>
+          
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
-                            <span>HTML</span>
-                            <span>90%</span>
+                            <h1 class="ml4">
+                               <span class="letters letters-1">HTML<i class="fab fa-html5"></i></span>
+                              
+                            </h1>
                         </div>
                         <div class="line html"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>CSS</span>
-                            <span>60%</span>
+                            <h1 class="ml4">
+                                <span class="letters letters-2">CSS<i class="fab fa-css3-alt"></i></span>
+                            </h1>
                         </div>
                         <div class="line css"></div>
                     </div>
-                    <div class="bars">
+                   <div class="bars">
                         <div class="info">
-                            <span>JavaScript</span>
-                            <span>80%</span>
+                            <h1 class="ml4">
+                          <span class="letters letters-3">SCSS<i class="fab fa-sass"></i></span>
+                            </h1>
                         </div>
                         <div class="line js"></div>
                     </div>
-                    <div class="bars">
+                  <div class="bars">
                         <div class="info">
-                            <span>ReactJS</span>
-                            <span>50%</span>
+                            <h1 class="ml4">
+                                <span class="letters letters-4">BootStrap<i class="fab fa-bootstrap"></i></span>
+                            </h1>
                         </div>
                         <div class="line php"></div>
                     </div>
+                   <div class="bars">
+                        <div class="info">
+                            <h1 class="ml4">
+                              <span class="letters letters-5">JavaScript<i class="fab fa-js-square"></i></span>
+                            </h1>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                     <div class="bars">
+                        <div class="info">
+                            <h1 class="ml4">
+                              <span class="letters letters-6">Jekyll<img class='jekyll' src="./assets/images/jekyll-icon_2.png" alt="jekyll"></span>
+                            </h1>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
                     <div class="bars">
                         <div class="info">
-                            <span>C#</span>
-                            <span>15%</span>
+                            <h1 class="ml4">
+                              <span class="letters letters-7">Figma<i class="fab fa-figma"></i></span>
+                            </h1>
                         </div>
                         <div class="line mysql"></div>
                     </div>
@@ -173,7 +197,10 @@
     <section class="teams" id="teams">
         <div class="wrap">
             <h2 class="title">My Projects</h2>
-            <div class="carousel owl-carousel">
+            <div class="carousel owl-carousel owl-loaded owl-drag">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item cloned">
                 <div class="card">
                     <div class="box">
                         <img src="./assets/images/joshua-aragon-BMnhuwFYr7w-unsplash.jpg" alt="">
@@ -181,6 +208,8 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
+            </div>
+            <div class="owl-item cloned">
                 <div class="card">
                     <div class="box">
                         <img src="./assets/images/joshua-aragon-BMnhuwFYr7w-unsplash.jpg" alt="">
@@ -188,6 +217,17 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
+            </div>
+            <div class="owl-item cloned">
+                <div class="card">
+                    <div class="box">
+                        <img src="./assets/images/profile-3.jpeg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item cloned">
                 <div class="card">
                     <div class="box">
                         <img src="./assets/images/joshua-aragon-BMnhuwFYr7w-unsplash.jpg" alt="">
@@ -195,20 +235,18 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
+            </div>
+            <div class="owl-item cloned">
                 <div class="card">
                     <div class="box">
                         <img src="./assets/images/joshua-aragon-BMnhuwFYr7w-unsplash.jpg" alt="">
                         <div class="text">Someone name</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
+                    </div>  
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="./assets/images/joshua-aragon-BMnhuwFYr7w-unsplash.jpg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
+            </div>  
+            </div>
+            </div>
             </div>
         </div>
     </section>
