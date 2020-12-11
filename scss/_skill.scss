@@ -62,7 +62,8 @@
 .letters-4,
 .letters-5,
 .letters-6,
-.letters-7 {
+.letters-7,
+.letters-8 {
   text-align: center;
 }
 .letters-1 {
@@ -90,10 +91,14 @@
 
 .letters-6 {
   color: white;
-  background-color: black;
+  background-color: rgb(16, 19, 187);
 }
 
 .letters-7 {
+  color: white;
+  background-color: rgb(17, 19, 16);
+}
+.letters-8 {
   background-color: chartreuse;
 }
 
