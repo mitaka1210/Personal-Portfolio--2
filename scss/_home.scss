@@ -28,17 +28,19 @@
 }
 .home .home-content a {
   display: inline-block;
-  background: crimson;
+  background: var(--button-color, crimson);
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
-  margin-top: 20px;
+  margin-top: 40px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid crimson;
+  //border: 2px solid red;
+  border: 1px solid crimson;
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
   color: crimson;
+
   background: none;
 }

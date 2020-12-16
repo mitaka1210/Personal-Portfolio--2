@@ -14,8 +14,56 @@
   --color-border-default: #999;
 
   --spacing-layout-elements: 2em;
-
+  --button-color: linear-gradient(
+    to right,
+    #487bdc,
+    #5484de,
+    #608ce1,
+    #6c95e3,
+    #779de5,
+    #71a9ed,
+    #6cb4f3,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
   --base-grey: #333;
+
+  --bgr-services: linear-gradient(
+    to top,
+    #48dc82,
+    #00d9b0,
+    #00d2d6,
+    #00c8ee,
+    #19bbf5,
+    #40bcf6,
+    #57bef7,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+
+  --bgr-navBar: linear-gradient(
+    to right bottom,
+    #48dc82,
+    #44dd76,
+    #43de69,
+    #44df5b,
+    #47e04a,
+    #3ae459,
+    #29e767,
+    #09eb75,
+    #00f19d,
+    #00f6c0,
+    #28f9dc,
+    #5ffbf1
+  );
+
+  --color-lio: #f2a863;
 
   //TODO SOCIAL
   --facebook: #3b5998;

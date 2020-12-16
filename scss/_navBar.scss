@@ -11,7 +11,7 @@
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: crimson;
+  background-image: var(--bgr-navBar, crimson);
 }
 .navbar .wrap {
   display: flex;
@@ -28,7 +28,7 @@
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
-  color: #fff;
+  color: var(--color-lio, crimson);
 }
 .navbar .menu li {
   list-style: none;
@@ -46,7 +46,7 @@
   color: crimson;
 }
 .navbar.sticky .menu li a:hover {
-  color: rgb(30, 158, 126);
+  color: #f26363;
 }
 
 /* menu btn styling */

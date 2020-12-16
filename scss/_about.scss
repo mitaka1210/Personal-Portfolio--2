@@ -37,11 +37,12 @@
     transition: 1s;
     transition-delay: 0s;
     box-shadow: 0 30px 50px -20px rgb(43, 44, 43);
+    border-radius: 6px;
   }
 }
 .about .about-content .right a {
   display: inline-block;
-  background: crimson;
+  background: var(--button-color, crimson);
   color: #fff;
   font-size: 20px;
   font-weight: 500;

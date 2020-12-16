@@ -79,6 +79,22 @@
     width: 100%;
     margin-bottom: 35px;
   }
+  .letters-1,
+  .letters-2,
+  .letters-3,
+  .letters-4,
+  .letters-5,
+  .letters-6,
+  .letters-7,
+  .letters-8 {
+    height: 25px;
+  }
+  .ml4 .letters {
+    top: -1.5em;
+  }
+  .skills .skills-content .right span {
+    padding: 2em;
+  }
 }
 
 @media (max-width: 690px) {
@@ -129,10 +145,21 @@
     line-height: 38px;
   }
   .skills .skills-content .right span {
-    width: 10em;
-
+    width: 18em;
+    padding: 2em;
     font-size: 16px;
     position: absolute;
     top: 0em;
+  }
+
+  .letters-1,
+  .letters-2,
+  .letters-3,
+  .letters-4,
+  .letters-5,
+  .letters-6,
+  .letters-7,
+  .letters-8 {
+    height: 25px;
   }
 }
