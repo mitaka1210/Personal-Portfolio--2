@@ -22,16 +22,16 @@ $(document).ready(function () {
     $('html').css('scrollBehavior', 'auto');
   });
 
-  $('.navbar .menu li a').click(function () {
-    // applying again smooth scroll on menu items click
-    $('html').css('scrollBehavior', 'smooth');
-  });
+  //$('.navbar .menu li a').click(function () {
+  //  // applying again smooth scroll on menu items click
+  //  $('html').css('scrollBehavior', 'smooth');
+  //});
 
-  // toggle menu/navbar script
-  $('.menu-btn').click(function () {
-    $('.navbar .menu').toggleClass('active');
-    $('.menu-btn i').toggleClass('active');
-  });
+  //// toggle menu/navbar script
+  //$('.menu-btn').click(function () {
+  //  $('.navbar .menu').toggleClass('active');
+  //  $('.menu-btn i').toggleClass('active');
+  //});
 
   // typing text animation script
   typed = new Typed('.typing', {
@@ -204,3 +204,49 @@ anime
     duration: 500,
     delay: 500,
   });
+
+
+  //! Add class to menu bar
+
+  let mainNavLinks = document.querySelectorAll("nav ul li a");
+let mainSections = document.querySelectorAll("main section");
+let menuBgr = document.querySelector('.navbar');
+
+let lastId;
+let cur = [];
+
+// This should probably be throttled.
+// Especially because it triggers during smooth scrolling.
+// https://lodash.com/docs/4.17.10#throttle
+// You could do like...
+// window.addEventListener("scroll", () => {
+//    _.throttle(doThatStuff, 100);
+// });
+// Only not doing it here to keep this Pen dependency-free.
+
+window.addEventListener("scroll", event => {
+  let fromTop = window.scrollY;
+ 
+  mainNavLinks.forEach(link => {
+    let section = document.querySelector(link.hash);
+
+    if (
+      section.offsetTop <= fromTop &&
+      section.offsetTop + section.offsetHeight > fromTop
+    ) {
+      link.classList.add("current");
+    } else {
+      link.classList.remove("current");
+    }
+  });
+});
+
+
+window.onscroll = () => {
+  if (window.scrollY > 300) {
+    menuBgr.classList.add('sticky')
+  }
+  else {
+    menuBgr.classList.remove('sticky')
+  }
+}

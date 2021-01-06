@@ -22,6 +22,7 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 section .title {
   position: relative;
@@ -43,11 +44,17 @@ section .title::before {
 }
 section .title::after {
   position: absolute;
-  bottom: -8px;
+  bottom: -5px;
   left: 50%;
   font-size: 20px;
   color: crimson;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
+}
+
+
+.current{
+  border-bottom: 2px solid red;
+  
 }
