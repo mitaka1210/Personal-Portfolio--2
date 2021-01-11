@@ -18,7 +18,7 @@
 <h1 style="color: green;">
 <h1>If you want visited my WORK .</h1>
 
-Click here ==> <a href="https://mitaka1210.github.io/CV/" style="color: red; font-size: 2em; ">CV</a>
+Click here ==> <a href="https://mitaka1210.github.io/Personal-Portfolio--2/" style="color: red; font-size: 2em; ">CV</a>
 
 [Back To The Top](#Menu)
 
