@@ -8,7 +8,6 @@
 
 - [Website](#Website)
 - [Technologies](#Technologies)
-- [Available Scripts](#Available-Scripts)
 - [Author-Info](#About-info)
 
 ---
