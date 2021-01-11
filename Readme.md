@@ -2,7 +2,7 @@
 
 <h1 style="text-align:center; font-family: 'Lobster', cursive; ">Read Me</h1>
 
-<h1 style= "color:white; font-size: 1.3em;" >This is my CV where you cant read and see information about me and my project .<h1>
+<h1 style= "color:white; font-size: 1.3em;" >This is my CV where you can read and see information about me and my project .<h1>
 
 ### Menu
 
