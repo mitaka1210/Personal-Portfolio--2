@@ -16,7 +16,7 @@
 ## Website
 
 <h1 style="color: green;">
-<h1>If you want visited my WORK .</h1>
+<h1>If you want to see my work.</h1>
 
 Click here ==> <a href="https://mitaka1210.github.io/Personal-Portfolio--2/" style="color: red; font-size: 2em; ">CV</a>
 
