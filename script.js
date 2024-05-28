@@ -35,7 +35,7 @@ $(document).ready(function () {
 
   // typing text animation script
   typed = new Typed('.typing', {
-    strings: ['Jr.Developer', 'Jr.Designer', 'Aquarist', 'Freelancer', 'Aviation engineer'],
+    strings: ['Jr.Developer', 'Jr.Designer2', 'Aquarist', 'Freelancer', 'Aviation engineer'],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -226,7 +226,7 @@ let cur = [];
 
 window.addEventListener("scroll", event => {
   let fromTop = window.scrollY;
- 
+
   mainNavLinks.forEach(link => {
     let section = document.querySelector(link.hash);
 

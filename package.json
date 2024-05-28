@@ -1,0 +1,19 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitaka1210/mitaka-website.git"
+  },
+  "author": "eng.Dimitar Dimitrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitaka1210/mitaka-website/issues"
+  },
+  "homepage": "https://github.com/mitaka1210/mitaka-website#readme"
+}

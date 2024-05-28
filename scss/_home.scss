@@ -1,11 +1,10 @@
 .home {
   display: flex;
-  background: url('../assets/images/Endless-Constellation.svg') no-repeat center;
   height: 100vh;
   color: #fff;
   min-height: 500px;
   background-size: cover;
-  background-attachment: fixed;
+  background: url('../assets/images/Endless-Constellation.svg') no-repeat fixed center;
 }
 .home .max-width {
   margin: auto 0 auto 30px;
